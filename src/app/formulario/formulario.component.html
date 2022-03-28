@@ -1,0 +1,18 @@
+<!--Formulario-->
+<form>
+    <!--operado A-->
+    <div class="form-group">
+      <label>Operando A:</label><br />
+      <input type="number" class="form-control" [(ngModel)]='operador1' name="operador1" placeholder="Ingrese el primer numero"  /><br />
+    </div>
+    <!--operado B-->
+    <div class="form-group">
+      <label>Operando B:</label><br />
+      <input type="number" class="form-control" placeholder="Ingrese el segundo numero" 
+      [(ngModel)]='operador2' name="operador2"/><br />
+    </div>
+    <!--boton-->
+    <button type="submit" class="btn btn-primary" (click)="operacion()">Sumar</button>
+    <br><br>
+  </form>
+ 
